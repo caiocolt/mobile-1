@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, " Poppins ";
+}
+
+body {
+    padding: 15px;
+}
+
+.menu a {
+    display: none;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1220px;
+}
+
+.btn-head {
+
+    margin-top: 2px;
+width: 91px;
+height: 31px;
+border-radius: 6px;
+background: #6FBF44;
+border: none;
+color: white;
+
+font-size: clamp(12px 5vw 16px);
+font-weight: 500;
+
+}
+
+.footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1220px;
+
+}
+
+img {
+
+    order: 2;
+    flex: 1;
+    width: clamp(250px, 5vw, 590px);
+    margin-top: -1%;
+    
+
+}
+
+.contexto {
+
+    order: 1;    
+
+}
+
+h1 {
+
+    font-size: clamp(30px, 5vw, 60px);
+    font-weight: 700;
+    width: clamp(278px, 5vw, 582px);
+    color: #161A49;
+    text-align: center;
+}
+
+p {
+    width: clamp(255px, 5vw, 493px);
+    color: #4B505A;
+    font-size: clamp(16px, 5vw, 18px);
+    margin: 31px auto;
+    text-align: center;
+}
+
+.btn-footer {
+
+    font-size:  clamp(16px, 5vw, 18px);
+    font-weight: 500;
+    margin: 0 auto;
+    color: #6FBF44;
+    background: transparent;
+    border: none;
+}
+
+.textos {
+    display: flex;
+    gap: 0%;
+    flex-direction: column;
+    margin-top: 1%;
+    padding: 15px;
+
+}
